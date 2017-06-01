@@ -1,4 +1,16 @@
-var car = {
+
+var doCoolStuff = function () {
+	var currentClassname = document.getElementById ('cool').className;
+
+	if (currentClassname == 'cool') {
+		document.getElementById ('cool').className = 'cool red';
+	} else {
+	document.getElementById ('cool').className = 'cool';
+	}
+}
+
+var car= {
+
 	make: 'BMW',
 	type: 'X4',
 	color: 'black',
